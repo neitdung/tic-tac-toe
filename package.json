@@ -1,0 +1,29 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "truffle deploy --network development --reset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dungntbss@bitbucket.org/bsssupport/picasarts-front-page-polygon.git"
+  },
+  "keywords": [
+    "blockchain",
+    "dapp"
+  ],
+  "author": "dungnt@bsscommerce.com",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "bn": "^1.0.5",
+    "ethers": "^5.6.9"
+  },
+  "devDependencies": {
+    "hardhat": "^2.11.2"
+  }
+}
